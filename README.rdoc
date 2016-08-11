@@ -1,28 +1,16 @@
-== README
+User Management System I
+Create a new model called User with the following fields:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+first_name
+last_name
+email_address
+password
+Create necessary models. Using the console create a few user records.
 
-Things you may want to cover:
+Do not use resources for the routes.
 
-* Ruby version
+Now using rails, in the Users controller index method...
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Get all the users records
+Pass the users information to the appropriate view file
+Use an each loop to display all of the user's information (first name, last name, and email address)
